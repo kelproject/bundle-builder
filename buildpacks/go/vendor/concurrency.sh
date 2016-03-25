@@ -1,0 +1,1 @@
+export GOMAXPROCS=${GOMAXPROCS:-2}

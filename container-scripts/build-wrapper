@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -0 -s "$1" | /opt/scripts/build "$2"
