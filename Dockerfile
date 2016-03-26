@@ -1,4 +1,4 @@
-FROM quay.io/kelproject/bundle-base
+FROM quay.io/kelproject/bundle-base:git-8407e330
 
 RUN mkdir /app
 RUN addgroup --quiet --gid 2000 app && \
